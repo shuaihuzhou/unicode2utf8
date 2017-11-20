@@ -1,5 +1,6 @@
 #include "../include/split.h"
 #include<string>
+#include<cstring>
 
 void split(const char* str, std::vector<varray> &vtr, char ch)
 {
