@@ -3,6 +3,7 @@
 
 #include<vector>
 #include"varray.h"
+#include<cstring>
 
 //#ifdef __cplusplus
 //extern "C"{
