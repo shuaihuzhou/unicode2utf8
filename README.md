@@ -9,6 +9,13 @@ this tool can make the string like "\u4e3d" to chinese word "丽" to display on 
 ### the method to use it
 #### git clone https://github.com/shuaihuzhou/unicode2utf8.git ./unicode2utf8
 #### cd ./unicode2utf8
+#### ./configure
 #### make
+<<<<<<< HEAD
 #### ./bin/unicode2utf8 "\u4e3d"
 ![img](https://github.com/shuaihuzhou/unicode2utf8/images/unicode2utf-8.gif)
+=======
+#### cd ./src
+#### ./unicode2utf8 "\u4e3d"
+![img](https://github.com/shuaihuzhou/unicode2utf8/blob/master/images/unicode2utf-8.gif)
+>>>>>>> refs/remotes/origin/master

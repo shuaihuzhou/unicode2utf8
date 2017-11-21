@@ -87,11 +87,19 @@ HEADERS = $(include_HEADERS)
 ETAGS = etags
 CTAGS = ctags
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+<<<<<<< HEAD
 ACLOCAL = ${SHELL} /home/users/zhoushuaihu/unicode2utf8/missing --run aclocal-1.11
 AMTAR = ${SHELL} /home/users/zhoushuaihu/unicode2utf8/missing --run tar
 AUTOCONF = ${SHELL} /home/users/zhoushuaihu/unicode2utf8/missing --run autoconf
 AUTOHEADER = ${SHELL} /home/users/zhoushuaihu/unicode2utf8/missing --run autoheader
 AUTOMAKE = ${SHELL} /home/users/zhoushuaihu/unicode2utf8/missing --run automake-1.11
+=======
+ACLOCAL = ${SHELL} /home/work/unicode2utf8/missing --run aclocal-1.11
+AMTAR = ${SHELL} /home/work/unicode2utf8/missing --run tar
+AUTOCONF = ${SHELL} /home/work/unicode2utf8/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/work/unicode2utf8/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/work/unicode2utf8/missing --run automake-1.11
+>>>>>>> refs/remotes/origin/master
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -116,7 +124,11 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
+<<<<<<< HEAD
 MAKEINFO = ${SHELL} /home/users/zhoushuaihu/unicode2utf8/missing --run makeinfo
+=======
+MAKEINFO = ${SHELL} /home/work/unicode2utf8/missing --run makeinfo
+>>>>>>> refs/remotes/origin/master
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
 PACKAGE = full-package-name
@@ -130,10 +142,17 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = 
 VERSION = VERSION
+<<<<<<< HEAD
 abs_builddir = /home/users/zhoushuaihu/unicode2utf8/src
 abs_srcdir = /home/users/zhoushuaihu/unicode2utf8/src
 abs_top_builddir = /home/users/zhoushuaihu/unicode2utf8
 abs_top_srcdir = /home/users/zhoushuaihu/unicode2utf8
+=======
+abs_builddir = /home/work/unicode2utf8/src
+abs_srcdir = /home/work/unicode2utf8/src
+abs_top_builddir = /home/work/unicode2utf8
+abs_top_srcdir = /home/work/unicode2utf8
+>>>>>>> refs/remotes/origin/master
 ac_ct_CC = gcc
 ac_ct_CXX = g++
 am__include = include
@@ -153,7 +172,11 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
+<<<<<<< HEAD
 install_sh = ${SHELL} /home/users/zhoushuaihu/unicode2utf8/install-sh
+=======
+install_sh = ${SHELL} /home/work/unicode2utf8/install-sh
+>>>>>>> refs/remotes/origin/master
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
