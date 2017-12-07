@@ -14,4 +14,3 @@ this tool can make the string like "\u4e3d" to chinese word "丽" to display on 
 #### ./bin/unicode2utf8 "\u4e3d"
 #### cd ./src
 #### ./unicode2utf8 "\u4e3d"
-![img](https://github.com/shuaihuzhou/unicode2utf8/blob/master/images/unicode2utf-8.gif)
